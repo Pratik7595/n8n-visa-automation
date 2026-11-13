@@ -36,12 +36,6 @@ End-to-end WhatsApp visa application automation built on n8n. Users submit visa 
 | Basic LLM Chain + Groq | Analyses parsed document content |
 | Google Sheets Trigger | Fires on row update to send status-change notifications |
 
-## Other files
-- `workflows/01_inbound_router.json` – standalone inbound router (placeholder credentials)
-- `workflows/02_state_manager.json` – state management skeleton
-- `workflows/03_document_handler.json` – document handling skeleton
-- `workflows/04_status_updates.json` – outbound status updates skeleton
-- `prompts/n8n-workflow-generator.md` – prompt guidance used to generate these workflows
 
 ## Run n8n locally
 From this folder:
