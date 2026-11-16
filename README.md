@@ -30,7 +30,7 @@ End-to-end WhatsApp visa application automation built on n8n. Users submit visa 
 | Google Sheets (get) | Looks up existing applicant by phone |
 | If / Switch | Routes by user existence and application state |
 | Google Sheets (add/append) | Creates new users, logs document results, updates state |
-| Twilio (×7) | Sends WhatsApp replies at each stage |
+| Twilio (×7)/Webhook | Sends WhatsApp replies at each stage |
 | HTTP Request (×4) | Downloads media, uploads to LlamaIndex, polls parse job, fetches markdown |
 | Wait | Polling delay for LlamaIndex job completion |
 | Basic LLM Chain + Groq | Analyses parsed document content |
