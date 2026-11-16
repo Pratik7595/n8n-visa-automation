@@ -4,7 +4,7 @@
     {
       "parameters": {
         "httpMethod": "POST",
-        "path": "e303c04c-50e4-43a2-8694-0176362df551",
+        "path": "YOUR_WEBHOOK_PATH",
         "responseMode": "responseNode",
         "options": {}
       },
@@ -16,7 +16,7 @@
         0,
         0
       ],
-      "webhookId": "e303c04c-50e4-43a2-8694-0176362df551"
+      "webhookId": "YOUR_WEBHOOK_ID"
     },
     {
       "parameters": {
@@ -35,7 +35,7 @@
       "parameters": {
         "documentId": {
           "__rl": true,
-          "value": "https://docs.google.com/spreadsheets/d/1_6as37I_edD__jwL87HpASxZd7826BtwtR6luNZsrmI/edit?pli=1&gid=0#gid=0",
+          "value": "YOUR_GOOGLE_SHEET_URL",
           "mode": "url"
         },
         "sheetName": {
@@ -64,8 +64,8 @@
       "alwaysOutputData": true,
       "credentials": {
         "googleSheetsOAuth2Api": {
-          "id": "QRiGG3dR4PKJy4yQ",
-          "name": "Google Sheets account 3"
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "YOUR_CREDENTIAL_NAME"
         }
       }
     },
@@ -279,8 +279,8 @@
       ],
       "credentials": {
         "twilioApi": {
-          "id": "PqI5eZsgIeU1BIL5",
-          "name": "Twilio account"
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "YOUR_CREDENTIAL_NAME"
         }
       }
     },
@@ -289,7 +289,7 @@
         "operation": "update",
         "documentId": {
           "__rl": true,
-          "value": "https://docs.google.com/spreadsheets/d/1_6as37I_edD__jwL87HpASxZd7826BtwtR6luNZsrmI/edit?pli=1&gid=0#gid=0",
+          "value": "YOUR_GOOGLE_SHEET_URL",
           "mode": "url"
         },
         "sheetName": {
@@ -375,8 +375,8 @@
       ],
       "credentials": {
         "googleSheetsOAuth2Api": {
-          "id": "QRiGG3dR4PKJy4yQ",
-          "name": "Google Sheets account 3"
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "YOUR_CREDENTIAL_NAME"
         }
       }
     },
@@ -433,7 +433,7 @@
         "operation": "append",
         "documentId": {
           "__rl": true,
-          "value": "https://docs.google.com/spreadsheets/d/1_6as37I_edD__jwL87HpASxZd7826BtwtR6luNZsrmI/edit?pli=1&gid=0#gid=0",
+          "value": "YOUR_GOOGLE_SHEET_URL",
           "mode": "url"
         },
         "sheetName": {
@@ -507,8 +507,8 @@
       ],
       "credentials": {
         "googleSheetsOAuth2Api": {
-          "id": "QRiGG3dR4PKJy4yQ",
-          "name": "Google Sheets account 3"
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "YOUR_CREDENTIAL_NAME"
         }
       }
     },
@@ -549,7 +549,7 @@
             },
             {
               "name": "Authorization",
-              "value": "Bearer llx-eB8raPF5HUt9QzHAQUpkCIC5tJ7vpLVRhknhSaPfT8mPJqCW"
+              "value": "Bearer YOUR_API_KEY"
             }
           ]
         },
@@ -603,7 +603,7 @@
             },
             {
               "name": "Authorization",
-              "value": "Bearer llx-eB8raPF5HUt9QzHAQUpkCIC5tJ7vpLVRhknhSaPfT8mPJqCW"
+              "value": "Bearer YOUR_API_KEY"
             }
           ]
         },
@@ -663,7 +663,7 @@
             },
             {
               "name": "Authorization",
-              "value": "Bearer llx-eB8raPF5HUt9QzHAQUpkCIC5tJ7vpLVRhknhSaPfT8mPJqCW"
+              "value": "Bearer YOUR_API_KEY"
             }
           ]
         },
@@ -715,8 +715,8 @@
       "name": "Groq Chat Model",
       "credentials": {
         "groqApi": {
-          "id": "7Dy8IwLpab72M6li",
-          "name": "Groq account"
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "YOUR_CREDENTIAL_NAME"
         }
       }
     },
@@ -725,7 +725,7 @@
         "operation": "append",
         "documentId": {
           "__rl": true,
-          "value": "https://docs.google.com/spreadsheets/d/1_6as37I_edD__jwL87HpASxZd7826BtwtR6luNZsrmI/edit?pli=1&gid=980274476#gid=980274476",
+          "value": "YOUR_GOOGLE_URL",
           "mode": "url"
         },
         "sheetName": {
@@ -733,7 +733,7 @@
           "value": 980274476,
           "mode": "list",
           "cachedResultName": "Cases",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1_6as37I_edD__jwL87HpASxZd7826BtwtR6luNZsrmI/edit#gid=980274476"
+          "cachedResultUrl": "YOUR_GOOGLE_SHEET_URL"
         },
         "columns": {
           "mappingMode": "defineBelow",
@@ -787,8 +787,8 @@
       "name": "Append row in sheet1",
       "credentials": {
         "googleSheetsOAuth2Api": {
-          "id": "QRiGG3dR4PKJy4yQ",
-          "name": "Google Sheets account 3"
+          "id":"YOUR_CREDENTIAL_ID",
+          "name": "YOUR_CREDENTIAL_NAME"
         }
       }
     },
@@ -797,7 +797,7 @@
         "operation": "update",
         "documentId": {
           "__rl": true,
-          "value": "https://docs.google.com/spreadsheets/d/1_6as37I_edD__jwL87HpASxZd7826BtwtR6luNZsrmI/edit?pli=1&gid=0#gid=0",
+          "value": "YOUR_GOOGLE_SHEET_URL",
           "mode": "url"
         },
         "sheetName": {
@@ -883,8 +883,8 @@
       ],
       "credentials": {
         "googleSheetsOAuth2Api": {
-          "id": "QRiGG3dR4PKJy4yQ",
-          "name": "Google Sheets account 3"
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "YOUR_CREDENTIAL_NAME"
         }
       }
     },
@@ -971,7 +971,7 @@
         },
         "documentId": {
           "__rl": true,
-          "value": "https://docs.google.com/spreadsheets/d/1_6as37I_edD__jwL87HpASxZd7826BtwtR6luNZsrmI/edit?pli=1&gid=980274476#gid=980274476",
+          "value": "YOUR_GOOGLE_SHEET_URL",
           "mode": "url"
         },
         "sheetName": {
@@ -996,8 +996,8 @@
       "name": "Google Sheets Trigger",
       "credentials": {
         "googleSheetsTriggerOAuth2Api": {
-          "id": "ECrZwDcN60gTIwYp",
-          "name": "Google Sheets Trigger account"
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "YOUR_CREDENTIAL_NAME"
         }
       }
     },
@@ -1006,7 +1006,7 @@
         "operation": "update",
         "documentId": {
           "__rl": true,
-          "value": "https://docs.google.com/spreadsheets/d/1_6as37I_edD__jwL87HpASxZd7826BtwtR6luNZsrmI/edit?pli=1&gid=0#gid=0",
+          "value": "YOUR_GOOGLE_SHEET_URL",
           "mode": "url"
         },
         "sheetName": {
@@ -1091,8 +1091,8 @@
       ],
       "credentials": {
         "googleSheetsOAuth2Api": {
-          "id": "QRiGG3dR4PKJy4yQ",
-          "name": "Google Sheets account 3"
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "YOUR_CREDENTIAL_NAME"
         }
       }
     },
